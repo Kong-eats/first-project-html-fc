@@ -11,10 +11,49 @@
 
     <a href="./page_one.html">Page one</a>
 
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum facilis recusandae et neque aperiam expedita fugit eos accusantium, atque qui.</p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
 
-    <img src="https://static.dw.com/image/40525708_403.jpg"/>
-    <img src="https://familynews.today/wp-content/uploads/2022/05/GG.jpg"/>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <section> <!-- section>ul>li{Item}*10 -->  
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ul>
+    </section>
+
+    <article> <!-- article>h2>p --> 
+        <h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </h2>
+    </article>
+
+    <article> <!-- article>(h2{heading $}+(p>lorem10))*3 = article>(h2{heading $}+p>lorem10)*3 --> 
+        <h2>Heading 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, quae.</p>
+        <h2>Heading 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, quae.</p>
+        <h2>Heading 3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, quae.</p>
+    </article>
+
+    <p> <!-- lorem20 , Option + Z (переносить рядки тексту по розміру вікна CS Code) --> 
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum facilis recusandae et neque aperiam expedita fugit eos accusantium, atque qui.
+    </p>
+
+    <img src="https://static.dw.com/image/40525708_403.jpg" width="400"/>
+    <img src="https://familynews.today/wp-content/uploads/2022/05/GG.jpg" width="400"/>
 
 </body>
 </html>
